@@ -9,7 +9,7 @@ public class Boat implements WaterVehicle{
     }
     @Override
     public String getVehicleName() {
-        return "Name is "+ name;
+        return name;
     }
 
     @Override
